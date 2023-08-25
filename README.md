@@ -1,4 +1,4 @@
-# CV经典论文（按发布时间排序）
+# 复现CV论文网络结构（按发布时间排序）
 
 ## 1998年
 - LeNet 5 [代码](convnets/let5.py)，[论文](https://ieeexplore.ieee.org/document/726791)  
@@ -17,7 +17,7 @@
 ## 2014年
 - VGG [代码-VGG16](convnets/vgg16.py), [代码-VGG19](convnets/vgg19.py), [论文](https://arxiv.org/pdf/1409.1556.pdf)
   > - 引入 3x3 卷积核
-  > - 模型做到更深
+  > - 模型做到更深  
 ![vgg16](convnets/architectures/vgg19_model.png)
 
 - GoogLeNet [代码](convnets/googlenet.py), [论文](https://arxiv.org/abs/1409.4842)
@@ -86,7 +86,7 @@
 - SENet [代码](convnets/senet.py) [论文](https://arxiv.org/abs/1709.01507)
   > 讨论 channels 之间的关系（**Channel Attention**）  
   > Squeeze-and-Excitation 可以作用到现有任何模型中
-![senet](convnets/architectures/senet_model.png)
+![senet](convnets/architectures/senet_resnet50_model.png)
 
 ## 2018年
 - MobileNet V2 [代码](convnets/mobilenetv2.py), [论文](https://arxiv.org/abs/1801.04381)  

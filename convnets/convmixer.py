@@ -47,6 +47,6 @@ model = tf.keras.Model(inputs=input, outputs=output, name='ConvMixer')
 
 if __name__ == '__main__':
     model.summary()
-    tf.keras.utils.plot_model(model, os.path.join('architectures', 'convmixer.png'), show_shapes=True)
+    tf.keras.utils.plot_model(model, os.path.join('architectures', 'convmixer_model.png'), show_shapes=True)
     # keras2ascii(model)
     visualkeras.layered_view(model, legend=True, to_file=os.path.join('architectures', 'convmixer_layers.png')).show()
